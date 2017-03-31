@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base"
+		template="/WEB-INF/layout/page.jsp">
+		<put-attribute name="header"
+		value="/WEB-INF/layout/header.jsp" />
+		<put-attribute name="footer"
+		value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="home" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/home.jsp" />
+	</definition>
+	<definition name="login" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/login.jsp" />
+	</definition>
+	<definition name="register" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/register.jsp" />
+	</definition>
+	<definition name="user" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/user.jsp" />
+	</definition>
+	<definition name="admin" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/admin.jsp" />
+	</definition>
+	<definition name="admin_doctor" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/admin_doctor.jsp" />
+	</definition>
+	<definition name="admin_user" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/admin_user.jsp" />
+	</definition>
+	<definition name="admin_leave" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/admin_leave.jsp" />
+	</definition>
+	<definition name="doctor" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/doctor.jsp" />
+	</definition>
+	<definition name="doctor_form" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/doctor_form.jsp" />
+	</definition>
+	<definition name="admin_patient" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/admin_user.jsp" />
+	</definition>
+	<definition name="newpatient" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/register.jsp" />
+	</definition>
+	<definition name="doctor_schedule" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/doctor_schedule.jsp" />
+	</definition>
+	<definition name="doctor_leave" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/doctor_leave.jsp" />
+	</definition>
+	<definition name="doctor_appts" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/doctor_appts.jsp" />
+	</definition>
+	<definition name="doctor_review" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/doctor_review.jsp" />
+	</definition>
+	<definition name="schedule" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/schedule.jsp" />
+	</definition>
+	<definition name="appointment" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/appointment.jsp" />
+	</definition>
+	<definition name="review" extends="base">
+		<put-attribute name="body"
+		value="/WEB-INF/views/review.jsp" />
+	</definition>
+</tiles-definitions>
